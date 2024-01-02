@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+  std::cout << "a\ta^2\ta^3\n";
+  int a = 1;
+  std::cout << a; 
+  std::cout << "\t" << a*a;
+  std::cout << "\t" << a*a*a;
+  a = 2;
+  std::cout << "\n" << a;
+  std::cout << "\t" << a*a;
+  std::cout << "\t" << a*a*a;
+  a = 3;
+  std::cout << "\n" << a; 
+  std::cout << "\t" << a*a;
+  std::cout << "\t" << a*a*a;
+  a = 4;
+  std::cout << "\n" << a; 
+  std::cout << "\t" << a*a;
+  std::cout << "\t" << a*a*a;
+}
