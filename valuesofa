@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() {
+  std::cout << "a\ta^2\ta^3";
+  std::cout << "\n1\t1\t1";
+  std::cout << "\n2\t4\t8";
+  std::cout << "\n3\t9\t27";
+  std::cout << "\n4\t16\t64";
+}
